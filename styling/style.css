@@ -1,6 +1,39 @@
+@font-face {
+  font-weight: 400;
+  font-family: Raleway;
+  src: url(./resources/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: Raleway;
+  src: url(./resources/fonts/Raleway-SemiBold.ttf);
+}
+
+body {
+  margin: 0;
+}
+
 .content-wrapper {
-  width: 100px;
-  background-color: blue;
-  height: 100px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw;
+  height: 100vh;
+}
+
+.content-wrapper .header-wrapper {
+  margin-top: 2vh;
+}
+
+.content-wrapper .header-wrapper .heading {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.content-wrapper .header-wrapper .subheading {
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */

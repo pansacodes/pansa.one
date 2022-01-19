@@ -1,8 +1,25 @@
+@import "theme";
+
 body {
+  margin: 0;
 }
-.content-wrapper{
-    width: 100px;
-    background-color: blue;
-    height: 100px;
+.content-wrapper {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 80vw;
+  height: 100vh;
+  .header-wrapper {
+    margin-top: 2vh;
+    .heading{
+        font-family: Raleway;
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .subheading{
+        font-family: Raleway;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
 
 }
