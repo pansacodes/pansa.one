@@ -1,17 +1,18 @@
 @font-face {
-  font-weight: 400;
-  font-family: Raleway;
-  src: url(./resources/fonts/Raleway-Medium.ttf);
+  font-weight: 600;
+  font-family: NeueMachina;
+  src: url(/resources/fonts/PPNeueMachina-Regular.otf);
 }
 
 @font-face {
-  font-weight: 600;
-  font-family: Raleway;
-  src: url(./resources/fonts/Raleway-SemiBold.ttf);
+  font-weight: 800;
+  font-family: NeueMachina;
+  src: url(/resources/fonts/PPNeueMachina-Ultrabold.otf);
 }
 
 body {
   margin: 0;
+  background-color: #0f0f0f;
 }
 
 .content-wrapper {
@@ -26,14 +27,16 @@ body {
 }
 
 .content-wrapper .header-wrapper .heading {
-  font-family: Raleway;
-  font-size: 24px;
+  font-family: NeueMachina;
+  font-size: 96px;
   font-weight: 400;
+  color: azure;
 }
 
 .content-wrapper .header-wrapper .subheading {
-  font-family: Raleway;
-  font-size: 12px;
+  font-family: NeueMachina;
+  font-size: 24px;
   font-weight: 600;
+  color: azure;
 }
 /*# sourceMappingURL=style.css.map */

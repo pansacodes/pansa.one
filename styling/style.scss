@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  background-color: #0f0f0f;
 }
 .content-wrapper {
   margin-left: 10vw;
@@ -11,14 +12,16 @@ body {
   .header-wrapper {
     margin-top: 2vh;
     .heading{
-        font-family: Raleway;
-      font-size: 24px;
+        font-family: NeueMachina;
+      font-size: 96px;
       font-weight: 400;
+      color: azure;
     }
     .subheading{
-        font-family: Raleway;
-      font-size: 12px;
+        font-family: NeueMachina;
+      font-size: 24px;
       font-weight: 600;
+      color: azure;
     }
   }
 
