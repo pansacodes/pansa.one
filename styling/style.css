@@ -23,18 +23,18 @@ body {
 }
 
 .content-wrapper .header-wrapper {
-  margin-top: 2vh;
+  margin-top: 10vh;
 }
 
 .content-wrapper .header-wrapper .heading {
-  font-family: NeueMachina;
+  font-family: NeueMachina, sans-serif;
   font-size: 96px;
-  font-weight: 400;
+  font-weight: 800;
   color: azure;
 }
 
 .content-wrapper .header-wrapper .subheading {
-  font-family: NeueMachina;
+  font-family: NeueMachina, sans-serif;
   font-size: 24px;
   font-weight: 600;
   color: azure;
