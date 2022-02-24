@@ -146,6 +146,14 @@ body {
   color: #98a2b3;
 }
 
+.content-wrapper .footer-wrapper .info .subheading button {
+  height: 28px;
+  width: 64px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
 .content-wrapper .footer-wrapper .links {
   display: -webkit-box;
   display: -ms-flexbox;
