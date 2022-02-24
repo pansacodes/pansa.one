@@ -19,8 +19,15 @@ body {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+    .divider {
+      width: 44%;
+      height: 16px;
+      background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
+      opacity: 20%;
+      margin-top: -30px;
+    }
     .subheading {
-      margin-top: 8px;
+      margin-top: 20px;
       font-family: Graphik, sans-serif;
       font-size: 18px;
       font-weight: 600;
@@ -30,11 +37,10 @@ body {
     }
     .subtext {
       display: flex;
-      margin-top: 1vh;
       cursor: pointer;
       width: max-content;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
       button {
         font-family: Graphik, sans-serif;
         font-size: 18px;
