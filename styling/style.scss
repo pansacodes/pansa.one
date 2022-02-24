@@ -85,14 +85,25 @@ body {
       }
     }
     .links{
+      margin-top: 80px;
+      display: flex;
+      justify-content: space-between;
       .subtext{
-        margin-top: 80px;
           font-family: Graphik, sans-serif;
           font-size: 14px;
           font-weight: 600;
           color: #444444;
+          width: auto;
+      }
+      .social{
+          font-family: Graphik, sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          color: #444444;
+          a{
+            margin-left: 8px;
+          }
       }
     }
-    
   }
 }

@@ -116,11 +116,32 @@ body {
   color: #98A2B3;
 }
 
-.content-wrapper .footer-wrapper .links .subtext {
+.content-wrapper .footer-wrapper .links {
   margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-wrapper .footer-wrapper .links .subtext {
   font-family: Graphik, sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #444444;
+  width: auto;
+}
+
+.content-wrapper .footer-wrapper .links .social {
+  font-family: Graphik, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444444;
+}
+
+.content-wrapper .footer-wrapper .links .social a {
+  margin-left: 8px;
 }
 /*# sourceMappingURL=style.css.map */
