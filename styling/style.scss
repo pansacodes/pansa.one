@@ -2,26 +2,97 @@
 
 body {
   margin: 0;
-  background-color: #0f0f0f;
+  background-color: #000000;
 }
 .content-wrapper {
   margin-left: 10vw;
   margin-right: 10vw;
   width: 80vw;
-  height: 100vh;
+  height: auto;
   .header-wrapper {
-    margin-top:10vh;
+    margin-top: 10vh;
     .heading {
       font-family: NeueMachina, sans-serif;
-      font-size: 96px;
+      font-size: 64px;
       font-weight: 800;
       color: azure;
     }
     .subheading {
-      font-family: NeueMachina, sans-serif;
-      font-size: 24px;
+      margin-top: 8px;
+      font-family: Graphik, sans-serif;
+      font-size: 18px;
       font-weight: 600;
-      color: azure;
+      color: #98A2B3;
+      line-height: 26px;
+      width: 56vw;
     }
+    .subtext {
+      display: flex;
+      margin-top: 1vh;
+      cursor: pointer;
+      width: max-content;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      button {
+        font-family: Graphik, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: azure;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0%;
+      }
+      img {
+        margin-left: 8px;
+      }
+    }
+  }
+  .work-wrapper {
+    margin-top: 10vh;
+    .work-card {
+      .heading {
+        margin-top: 2vh;
+        font-family: Graphik, sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        color: azure;
+      }
+      .subheading{
+        margin-top: 4px;
+        font-family: Graphik, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #98A2B3;
+      }
+    }
+  }
+  .footer-wrapper{
+    margin-top: 10vh;
+    .info{
+      .heading {
+        font-family: NeueMachina, sans-serif;
+        font-size: 64px;
+        font-weight: 800;
+        color: azure;
+      }
+      .subheading{
+        margin-top: 4px;
+          font-family: Graphik, sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          color: #98A2B3;
+      }
+    }
+    .links{
+      .subtext{
+        margin-top: 80px;
+          font-family: Graphik, sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          color: #444444;
+      }
+    }
+    
   }
 }
