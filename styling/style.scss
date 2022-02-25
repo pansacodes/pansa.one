@@ -104,6 +104,8 @@ body {
         animation-fill-mode: forwards;
         animation-delay: 0.3s;
         opacity: 0;
+        width: 48vw;
+
         img {
           opacity: 0;
           margin-inline-end: 8px;
@@ -117,7 +119,6 @@ body {
         }
         .subheading {
           margin-top: 4px;
-          width: 48vw;
           font-family: Circular, sans-serif;
           font-size: 18px;
           font-weight: 400;
@@ -212,6 +213,151 @@ body {
           }
         }
       }
+    }
+  }
+}
+
+//defining media queries
+
+@media screen and (max-width: 900px) {
+  .header-wrapper{
+    .heading {
+      font-size: 48px !important;
+    }
+    .subheading {
+      font-size: 16px !important;
+    }
+    .subtext{
+      button{
+        font-size: 16px !important;
+      }
+      
+    }
+  }
+  .work-wrapper {
+    .work-card {
+      .heading {
+        font-size: 20px !important;
+      }
+      .subheading {
+        font-size: 16px !important;
+      }
+    }
+  }
+  .footer-wrapper{
+    .heading {
+      font-size: 48px !important;
+    }
+    .subheading {
+      font-size: 16px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header-wrapper{
+    .heading {
+      font-size: 32px !important;
+    }
+    .subheading {
+      font-size: 14px !important;
+    }
+    .subtext{
+      button{
+        font-size: 14px !important;
+      }
+      
+    }
+  }
+  .work-wrapper {
+    .work-card {
+      .heading {
+        font-size: 18px !important;
+      }
+      .subheading {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .footer-wrapper{
+    .heading {
+      font-size: 32px !important;
+    }
+    .subheading {
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header-wrapper{
+    .heading {
+      font-size: 32px !important;
+    }
+    .subheading {
+      font-size: 14px !important;
+    }
+    .subtext{
+      button{
+        font-size: 14px !important;
+      }
+      
+    }
+  }
+  .work-wrapper {
+    .work-card {
+      .heading {
+        font-size: 16px !important;
+      }
+      .subheading {
+        font-size: 14px !important;
+      }
+    }
+  }
+  .footer-wrapper{
+    .heading {
+      font-size: 32px !important;
+    }
+    .subheading {
+      font-size: 14px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header-wrapper{
+    .heading {
+      font-size: 24px !important;
+    }
+    .subheading {
+      font-size: 12px !important;
+    }
+    .subtext{
+      button{
+        font-size: 12px !important;
+      }
+      
+    }
+  }
+  .work-wrapper {
+    .work-card {
+      .heading {
+        font-size: 14px !important;
+      }
+      .subheading {
+        font-size: 12px !important;
+      }
+    }
+  }
+  .footer-wrapper{
+    .heading {
+      font-size: 24px !important;
+    }
+    .subheading {
+      font-size: 12px !important;
+    }
+    .links{
+      font-size: 10px !important;
     }
   }
 }
