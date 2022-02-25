@@ -3,6 +3,8 @@
 body {
   margin: 0;
   background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .content-wrapper {
   margin-left: 10vw;
@@ -10,7 +12,7 @@ body {
   width: 80vw;
   height: auto;
   .header-wrapper {
-    margin-top: 8vh;
+    margin-top: 6vh;
     .heading {
       font-family: NeueMachina, sans-serif;
       font-size: 64px;
@@ -62,7 +64,7 @@ body {
     animation-fill-mode: forwards;
   }
   .work-wrapper {
-    margin-top: 10vh;
+    margin-top: 6vh;
     .work-card {
       width: auto;
       display: flex;
@@ -81,7 +83,7 @@ body {
       }
       .heading {
         margin-top: 2vh;
-        font-family: Cereal, sans-serif;
+        font-family: Circular, sans-serif;
         font-size: 24px;
         font-weight: 700;
         color: azure;
@@ -115,7 +117,7 @@ body {
     }
   }
   .footer-wrapper {
-    margin-top: 10vh;
+    margin-top: 12vh;
     animation-name: opacityTransition;
     animation-duration: 0.5s;
     animation-direction: normal;
@@ -127,7 +129,7 @@ body {
       width: 80vw;
       height: 2px;
       background-color: #1d2939;
-      margin-top: 80px;
+      margin-top: 48px;
     }
     .info {
       .heading {
@@ -137,7 +139,7 @@ body {
         color: azure;
       }
       .subheading {
-        margin-top: 4px;
+        margin-top: 2px;
         font-family: Circular, sans-serif;
         font-size: 18px;
         font-weight: 400;

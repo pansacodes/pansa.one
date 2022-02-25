@@ -12,13 +12,15 @@
 
 @font-face {
   font-weight: 700;
-  font-family: Cereal;
-  src: url(/resources/fonts/AirbnbCerealBold.ttf);
+  font-family: Circular;
+  src: url(/resources/fonts/CircularStd-Bold.otf);
 }
 
 body {
   margin: 0;
   background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .content-wrapper {
@@ -29,7 +31,7 @@ body {
 }
 
 .content-wrapper .header-wrapper {
-  margin-top: 8vh;
+  margin-top: 6vh;
   -webkit-animation-name: opacityTransition;
           animation-name: opacityTransition;
   -webkit-animation-duration: 0.5s;
@@ -99,7 +101,7 @@ body {
 }
 
 .content-wrapper .work-wrapper {
-  margin-top: 10vh;
+  margin-top: 6vh;
 }
 
 .content-wrapper .work-wrapper .work-card {
@@ -134,7 +136,7 @@ body {
 
 .content-wrapper .work-wrapper .work-card .heading {
   margin-top: 2vh;
-  font-family: Cereal, sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: azure;
@@ -183,7 +185,7 @@ body {
 }
 
 .content-wrapper .footer-wrapper {
-  margin-top: 10vh;
+  margin-top: 12vh;
   -webkit-animation-name: opacityTransition;
           animation-name: opacityTransition;
   -webkit-animation-duration: 0.5s;
@@ -203,7 +205,7 @@ body {
   width: 80vw;
   height: 2px;
   background-color: #1d2939;
-  margin-top: 80px;
+  margin-top: 48px;
 }
 
 .content-wrapper .footer-wrapper .info .heading {
@@ -214,7 +216,7 @@ body {
 }
 
 .content-wrapper .footer-wrapper .info .subheading {
-  margin-top: 4px;
+  margin-top: 2px;
   font-family: Circular, sans-serif;
   font-size: 18px;
   font-weight: 400;
