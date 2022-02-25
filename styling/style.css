@@ -1,19 +1,19 @@
 @font-face {
-  font-weight: 600;
-  font-family: Graphik;
-  src: url(/resources/fonts/GraphikRegular.otf);
-}
-
-@font-face {
   font-weight: 800;
   font-family: NeueMachina;
   src: url(/resources/fonts/PPNeueMachina-Ultrabold.otf);
 }
 
 @font-face {
-  font-weight: 800;
-  font-family: Graphik;
-  src: url(/resources/fonts/GraphikBold.otf);
+  font-weight: 400;
+  font-family: Circular;
+  src: url(/resources/fonts/CircularStd-Book.otf);
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Cereal;
+  src: url(/resources/fonts/AirbnbCerealBold.ttf);
 }
 
 body {
@@ -30,6 +30,16 @@ body {
 
 .content-wrapper .header-wrapper {
   margin-top: 8vh;
+  -webkit-animation-name: opacityTransition;
+          animation-name: opacityTransition;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .content-wrapper .header-wrapper .heading {
@@ -53,9 +63,9 @@ body {
 
 .content-wrapper .header-wrapper .subheading {
   margin-top: 20px;
-  font-family: Graphik, sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: #98a2b3;
   line-height: 26px;
   width: 56vw;
@@ -74,9 +84,9 @@ body {
 }
 
 .content-wrapper .header-wrapper .subtext button {
-  font-family: Graphik, sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: azure;
   background-color: transparent;
   border: none;
@@ -100,6 +110,20 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 1vh;
+  -webkit-animation-name: opacityTransition;
+          animation-name: opacityTransition;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  opacity: 0;
 }
 
 .content-wrapper .work-wrapper .work-card img {
@@ -110,26 +134,69 @@ body {
 
 .content-wrapper .work-wrapper .work-card .heading {
   margin-top: 2vh;
-  font-family: Graphik, sans-serif;
+  font-family: Cereal, sans-serif;
   font-size: 24px;
-  font-weight: 800;
+  font-weight: 700;
   color: azure;
 }
 
 .content-wrapper .work-wrapper .work-card .subheading {
   margin-top: 4px;
-  font-family: Graphik, sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: #98a2b3;
+}
+
+@-webkit-keyframes opacityTransition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityTransition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .content-wrapper .work-wrapper .work-card:hover img {
   opacity: 1;
+  -webkit-animation-name: opacityTransition;
+          animation-name: opacityTransition;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transition: all;
+  transition: all;
 }
 
 .content-wrapper .footer-wrapper {
   margin-top: 10vh;
+  -webkit-animation-name: opacityTransition;
+          animation-name: opacityTransition;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  opacity: 0;
 }
 
 .content-wrapper .footer-wrapper .divider {
@@ -148,9 +215,9 @@ body {
 
 .content-wrapper .footer-wrapper .info .subheading {
   margin-top: 4px;
-  font-family: Graphik, sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   color: #98a2b3;
 }
 
@@ -160,6 +227,7 @@ body {
   margin-left: 8px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .content-wrapper .footer-wrapper .links {
@@ -174,21 +242,25 @@ body {
 }
 
 .content-wrapper .footer-wrapper .links .subtext {
-  font-family: Graphik, sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   color: #444444;
   width: auto;
 }
 
 .content-wrapper .footer-wrapper .links .social {
-  font-family: Graphik, sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 14px;
-  font-weight: 600;
-  color: #444444;
+  font-weight: 400;
 }
 
 .content-wrapper .footer-wrapper .links .social a {
-  margin-left: 8px;
+  margin-left: 16px;
+  color: #444444;
+}
+
+.content-wrapper .footer-wrapper .links .social:hover a:hover {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
