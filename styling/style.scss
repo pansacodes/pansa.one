@@ -14,193 +14,204 @@ body {
     opacity: 20%;
     margin-top: 240px;
     margin-left: 1208px;
-    @supports (-moz-appearance:none) {
-      margin-top: 240px; 
-}
+    @supports (-moz-appearance: none) {
+      margin-top: 240px;
+    }
   }
-.content-wrapper {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  width: 80vw;
-  height: auto;
-  .header-wrapper {
-    margin-top: 8vh;
-    #divider {
-      width: 44%;
-      height: 16px;
-      background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
-      opacity: 20%;
-      position: absolute;
-      margin-top: 115px;
-      margin-left: 136px;
-      @supports (-moz-appearance:none) {
-        margin-top: 120px; 
-    }
-    }
-    .heading {
-      font-family: NeueMachina, sans-serif;
-      font-size: 64px;
-      font-weight: 800;
-      background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .subheading {
-      margin-top: 20px;
-      font-family: Circular, sans-serif;
-      font-size: 18px;
-      font-weight: 400;
-      color: #98a2b3;
-      line-height: 26px;
-      width: 48vw;
-    }
-    .subtext {
-      display: flex;
-      cursor: pointer;
-      width: max-content;
-      padding-top: 12px;
-      padding-bottom: 12px;
-      button {
+  .content-wrapper {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    height: auto;
+    .header-wrapper {
+      margin-top: 8vh;
+      .divider {
+        width: 643px;
+        height: 16px;
+        background: linear-gradient(
+          90deg,
+          #9845e8 -2%,
+          #33d2ff 56%,
+          #dd5789 96%
+        );
+        opacity: 20%;
+        position: absolute;
+        margin-top: 32px;
+        z-index: -99;
+
+        @supports (-moz-appearance: none) {
+          margin-top: 40px;
+        }
+      }
+      .heading {
+        font-family: NeueMachina, sans-serif;
+        font-size: 64px;
+        font-weight: 800;
+        background: linear-gradient(
+          90deg,
+          #9845e8 -2%,
+          #33d2ff 56%,
+          #dd5789 96%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .subheading {
+        margin-top: 20px;
         font-family: Circular, sans-serif;
         font-size: 18px;
         font-weight: 400;
-        color: azure;
-        background-color: transparent;
-        border: none;
+        color: #98a2b3;
+        line-height: 26px;
+        width: 48vw;
+      }
+      .subtext {
+        display: flex;
         cursor: pointer;
-        padding: 0%;
+        width: max-content;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        button {
+          font-family: Circular, sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          color: azure;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          padding: 0%;
+        }
+        img {
+          margin-left: 8px;
+        }
       }
-      img {
-        margin-left: 8px;
-      }
-    }
-    animation-name: opacityTransition;
-    animation-duration: 0.5s;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-  }
-  .work-wrapper {
-    margin-top: 6vh;
-    .work-card {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 1vh;
       animation-name: opacityTransition;
       animation-duration: 0.5s;
       animation-direction: normal;
       animation-timing-function: ease-in-out;
       animation-fill-mode: forwards;
-      animation-delay: 0.3s;
-      opacity: 0;
-      img {
+    }
+    .work-wrapper {
+      margin-top: 6vh;
+      .work-card {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vh;
+        animation-name: opacityTransition;
+        animation-duration: 0.5s;
+        animation-direction: normal;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 0.3s;
         opacity: 0;
-        margin-inline-end: 8px;
-      }
-      .heading {
-        margin-top: 2vh;
-        font-family: Circular, sans-serif;
-        font-size: 24px;
-        font-weight: 700;
-        color: azure;
-      }
-      .subheading {
-        margin-top: 4px;
-        width: 48vw;
-        font-family: Circular, sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        color: #98a2b3;
-      }
-      @keyframes opacityTransition {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-      &:hover {
         img {
-          opacity: 1;
-          animation-name: opacityTransition;
-          animation-duration: 0.4s;
-          animation-direction: normal;
-          animation-timing-function: ease-in-out;
-          animation-fill-mode: forwards;
-          transition: all;
+          opacity: 0;
+          margin-inline-end: 8px;
         }
-      }
-    }
-  }
-  .footer-wrapper {
-    margin-top: 12vh;
-    animation-name: opacityTransition;
-    animation-duration: 0.5s;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
-    opacity: 0;
-    .divider {
-      width: 80vw;
-      height: 2px;
-      background-color: #1d2939;
-      margin-top: 40px;
-    }
-    .info {
-      .heading {
-        font-family: NeueMachina, sans-serif;
-        font-size: 64px;
-        font-weight: 800;
-        color: azure;
-      }
-      .subheading {
-        margin-top: 2px;
-        font-family: Circular, sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        color: #98a2b3;
-        button {
-          height: 28px;
-          width: 64px;
-          margin-left: 8px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
+        .heading {
+          margin-top: 2vh;
+          font-family: Circular, sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          color: azure;
         }
-      }
-    }
-    .links {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 40px;
-      margin-top: 20px;
-      .subtext {
-        font-family: Circular, sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        color: #444444;
-        width: auto;
-      }
-      .social {
-        font-family: Circular, sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-
-        a {
-          margin-left: 16px;
-          color: #444444;
+        .subheading {
+          margin-top: 4px;
+          width: 48vw;
+          font-family: Circular, sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          color: #98a2b3;
+        }
+        @keyframes opacityTransition {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
         }
         &:hover {
+          img {
+            opacity: 1;
+            animation-name: opacityTransition;
+            animation-duration: 0.4s;
+            animation-direction: normal;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            transition: all;
+          }
+        }
+      }
+    }
+    .footer-wrapper {
+      margin-top: 12vh;
+      animation-name: opacityTransition;
+      animation-duration: 0.5s;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+      animation-delay: 0.5s;
+      opacity: 0;
+      .divider {
+        width: 80vw;
+        height: 2px;
+        background-color: #1d2939;
+        margin-top: 40px;
+      }
+      .info {
+        .heading {
+          font-family: NeueMachina, sans-serif;
+          font-size: 64px;
+          font-weight: 800;
+          color: azure;
+        }
+        .subheading {
+          margin-top: 2px;
+          font-family: Circular, sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          color: #98a2b3;
+          button {
+            height: 28px;
+            width: 64px;
+            margin-left: 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+        }
+      }
+      .links {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        .subtext {
+          font-family: Circular, sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #444444;
+          width: auto;
+        }
+        .social {
+          font-family: Circular, sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+
           a {
-            &:hover {
-              color: white;
+            margin-left: 16px;
+            color: #444444;
+          }
+          &:hover {
+            a {
+              &:hover {
+                color: white;
+              }
             }
           }
         }
       }
     }
   }
-}
 }

@@ -62,20 +62,20 @@ body .content-wrapper .header-wrapper {
           animation-fill-mode: forwards;
 }
 
-body .content-wrapper .header-wrapper #divider {
-  width: 44%;
+body .content-wrapper .header-wrapper .divider {
+  width: 643px;
   height: 16px;
   background: -webkit-gradient(linear, left top, right top, color-stop(-2%, #9845e8), color-stop(56%, #33d2ff), color-stop(96%, #dd5789));
   background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
   opacity: 20%;
   position: absolute;
-  margin-top: 115px;
-  margin-left: 136px;
+  margin-top: 32px;
+  z-index: -99;
 }
 
 @supports (-moz-appearance: none) {
-  body .content-wrapper .header-wrapper #divider {
-    margin-top: 120px;
+  body .content-wrapper .header-wrapper .divider {
+    margin-top: 40px;
   }
 }
 
