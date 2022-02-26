@@ -255,11 +255,16 @@ body .content-wrapper .work-wrapper .projects .work-card:hover img {
   transition: all;
 }
 
-body .content-wrapper .work-wrapper .supporting-image {
+body .content-wrapper .work-wrapper .supporting-container {
   width: 40%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-image: url("/resources/projects/Cosmos-cover.png");
+}
+
+body .content-wrapper .work-wrapper .supporting-container .supporting-image {
+  height: 100%;
+}
+
+body .content-wrapper .work-wrapper .supporting-container .supporting-image img {
+  width: -webkit-fill-available;
 }
 
 body .content-wrapper .footer-wrapper {

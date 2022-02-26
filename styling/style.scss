@@ -95,10 +95,14 @@ body {
           }
         }
       }
-      .supporting-image {
+      .supporting-container {
         width: 40%;
-        object-fit: cover;
-        background-image: url("/resources/projects/Cosmos-cover.png");
+        .supporting-image {
+          height: 100%;
+          img {
+            width: -webkit-fill-available;
+          }
+        }
       }
     }
     .footer-wrapper {
