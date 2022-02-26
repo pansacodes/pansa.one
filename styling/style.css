@@ -432,8 +432,12 @@ body .content-wrapper .footer-wrapper .links .social:hover a:hover {
     margin-left: 8vw !important;
     margin-right: 8vw !important;
   }
+  .content-wrapper .work-wrapper .projects {
+    width: 100% !important;
+  }
   .content-wrapper .work-wrapper .supporting-image {
     background-image: none !important;
+    width: 0% !important;
   }
 }
 
@@ -441,13 +445,24 @@ body .content-wrapper .footer-wrapper .links .social:hover a:hover {
   .content-wrapper {
     margin-left: 6vw !important;
     margin-right: 6vw !important;
+    width: 88vw;
+  }
+  .content-wrapper .work-wrapper .projects a .hover-arrow {
+    display: none;
+  }
+  .content-wrapper .work-wrapper .supporting-image {
+    background-image: none !important;
+    width: 0% !important;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .content-wrapper {
-    margin-left: 2vw !important;
-    margin-right: 2vw !important;
+  .content-wrapper .work-wrapper .projects {
+    width: 100% !important;
+  }
+  .content-wrapper .work-wrapper .supporting-image {
+    background-image: none !important;
+    width: 0% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
