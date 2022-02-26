@@ -157,7 +157,7 @@ body .content-wrapper .header-wrapper .subtext button {
   }
 }
 
-body .content-wrapper .header-wrapper .subtext img {
+body .content-wrapper .header-wrapper .subtext .down-arrow {
   margin-left: 8px;
 }
 
@@ -457,12 +457,45 @@ body .content-wrapper .footer-wrapper .links .social:hover a:hover {
 }
 
 @media screen and (max-width: 400px) {
+  .content-wrapper {
+    width: 88vw !important;
+  }
+  .content-wrapper .header-wrapper {
+    width: 88vw !important;
+  }
+  .content-wrapper .header-wrapper .subtext .down-arrow {
+    margin-left: 2px !important;
+    -webkit-transform: scale(0.64);
+            transform: scale(0.64);
+  }
   .content-wrapper .work-wrapper .projects {
     width: 100% !important;
   }
   .content-wrapper .work-wrapper .supporting-image {
     background-image: none !important;
     width: 0% !important;
+  }
+  .content-wrapper .footer-wrapper {
+    margin-top: 8vh !important;
+  }
+  .content-wrapper .footer-wrapper #copyText {
+    margin-top: 8px;
+    margin-left: 0px;
+  }
+  .content-wrapper .footer-wrapper .links {
+    margin-top: 12px !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content-wrapper .footer-wrapper .links .social {
+    margin-top: 8px !important;
+  }
+  .content-wrapper .footer-wrapper .links .social a {
+    margin-top: 8px;
+    margin-left: 0 !important;
+    margin-right: 8px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
