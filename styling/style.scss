@@ -68,15 +68,8 @@ body {
         width: 60%;
         .work-card {
           display: flex;
-          margin-bottom: 2vh;
+          padding-bottom: 2vh;
           justify-content: space-between;
-          animation-name: opacityTransition;
-          animation-duration: 0.5s;
-          animation-direction: normal;
-          animation-timing-function: ease-in-out;
-          animation-fill-mode: forwards;
-          animation-delay: 0.3s;
-          opacity: 0;
           .hover-arrow {
             opacity: 0;
             margin-left: 2vw;
@@ -88,14 +81,6 @@ body {
           .project-subheading {
             @include subheading;
             margin-top: 4px;
-          }
-          @keyframes opacityTransition {
-            0% {
-              opacity: 0;
-            }
-            100% {
-              opacity: 1;
-            }
           }
           &:hover {
             img {
@@ -118,13 +103,7 @@ body {
     }
     .footer-wrapper {
       margin-top: 12vh;
-      animation-name: opacityTransition;
-      animation-duration: 0.5s;
-      animation-direction: normal;
-      animation-timing-function: ease-in-out;
-      animation-fill-mode: forwards;
-      animation-delay: 0.5s;
-      opacity: 0;
+      opacity: 1;
       .divider {
         width: 80vw;
         height: 2px;
@@ -238,19 +217,22 @@ body {
     }
     .footer-wrapper {
       margin-top: 8vh !important;
-      #copyText{
+      #copyText {
         margin-top: 8px;
         margin-left: 0px;
       }
+      .divider {
+        width: 88vw !important;
+      }
       .links {
-        margin-top: 12px !important;
+        margin-top: 8px !important;
         flex-direction: column;
         .social {
-          margin-top: 8px !important;
+          margin-top: 12px !important;
           a {
-            margin-top: 8px;
+            margin-top: 12px;
             margin-left: 0 !important;
-            margin-right: 8px !important ;
+            margin-right: 12px !important ;
           }
         }
       }
