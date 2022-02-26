@@ -288,7 +288,6 @@ body .content-wrapper .work-wrapper .projects .work-card:hover img {
 
 body .content-wrapper .work-wrapper .supporting-image {
   width: 40%;
-  background-color: #9845e8;
   -o-object-fit: cover;
      object-fit: cover;
   background-image: url("/resources/projects/Cosmos-cover.png");
@@ -434,8 +433,7 @@ body .content-wrapper .footer-wrapper .links .social:hover a:hover {
     margin-right: 8vw !important;
   }
   .content-wrapper .work-wrapper .supporting-image {
-    background-image: none;
-    background-color: none;
+    background-image: none !important;
   }
 }
 

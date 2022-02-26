@@ -112,7 +112,6 @@ body {
       }
       .supporting-image {
         width: 40%;
-        background-color: #9845e8;
         object-fit: cover;
         background-image: url("/resources/projects/Cosmos-cover.png");
       }
@@ -185,8 +184,7 @@ body {
     margin-right: 8vw !important;
     .work-wrapper {
       .supporting-image {
-        background-image: none;
-        background-color: none;
+        background-image: none !important;
       }
     }
   }
