@@ -5,19 +5,6 @@ body {
   background-color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  .box {
-    position: absolute;
-    z-index: 999;
-    width: 400px;
-    height: 400px;
-    background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
-    opacity: 20%;
-    margin-top: 240px;
-    margin-left: 1208px;
-    @supports (-moz-appearance: none) {
-      margin-top: 240px;
-    }
-  }
   .content-wrapper {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -192,28 +179,27 @@ body {
 
 //defining media queries
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 880px) {
   .content-wrapper {
     margin-left: 8vw !important;
     margin-right: 8vw !important;
+    .work-wrapper {
+      .supporting-image {
+        background-image: none;
+        background-color: none;
+      }
+    }
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 640px) {
   .content-wrapper {
     margin-left: 6vw !important;
     margin-right: 6vw !important;
   }
 }
 
-@media screen and (max-width: 560px) {
-  .content-wrapper {
-    margin-left: 4vw !important;
-    margin-right: 4vw !important;
-  }
-}
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
   .content-wrapper {
     margin-left: 2vw !important;
     margin-right: 2vw !important;
