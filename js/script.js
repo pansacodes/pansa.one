@@ -24,12 +24,18 @@ function jagMag() {
     function callingCards(cardName, a, b, c, d, e, imgRoute) {
         cardName.addEventListener("mouseenter", function (event) {
             callAllElements(a, b, c, d, e);
-            document.getElementById("supporting-image").src = `${imgRoute}`;
+            callElement("supporting-image").src = `${imgRoute}`;
+            callElement("supporting-image").style.opacity = 1;
+            callElement("supporting-image").style.transition = "all 2s";;
+            cardName.style.transition = "all 0.4s";
 
         })
         cardName.addEventListener("mouseleave", function (event) {
             callAllElements(1, 1, 1, 1, 1);
-            document.getElementById("supporting-image").src = ``; //path left empty
+            callElement("supporting-image").style.opacity = 0;
+            callElement("supporting-image").style.transition = "all 2s";
+            callElement("supporting-image").src = ``; //path left empty
+            cardName.style.transition = "all 0.4s";
         })
     }
     var firstCard = callElement("cosmos");

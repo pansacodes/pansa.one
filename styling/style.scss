@@ -74,6 +74,7 @@ body {
             opacity: 0;
             margin-left: 2vw;
             margin-right: 2vw;
+            transition: all 0.2s;
           }
           .project-heading {
             @include heading;
@@ -99,8 +100,11 @@ body {
         width: 40%;
         .supporting-image {
           height: 100%;
+          #supporting-image {
+            opacity: 0;
+          }
           img {
-            width: -webkit-fill-available;
+            width: 70%;
           }
         }
       }

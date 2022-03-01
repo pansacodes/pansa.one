@@ -186,6 +186,8 @@ body .content-wrapper .work-wrapper .projects .work-card .hover-arrow {
   opacity: 0;
   margin-left: 2vw;
   margin-right: 2vw;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 body .content-wrapper .work-wrapper .projects .work-card .project-heading {
@@ -263,8 +265,12 @@ body .content-wrapper .work-wrapper .supporting-container .supporting-image {
   height: 100%;
 }
 
+body .content-wrapper .work-wrapper .supporting-container .supporting-image #supporting-image {
+  opacity: 0;
+}
+
 body .content-wrapper .work-wrapper .supporting-container .supporting-image img {
-  width: -webkit-fill-available;
+  width: 70%;
 }
 
 body .content-wrapper .footer-wrapper {
