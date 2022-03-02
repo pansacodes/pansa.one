@@ -23,11 +23,119 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@-webkit-keyframes moveFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveFade {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body .loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-animation: moveFade 0.4s ease-in-out forwards;
+          animation: moveFade 0.4s ease-in-out forwards;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .loader .text {
+  font-family: Circular, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+  body .loader .text {
+    font-size: 12px !important;
+  }
+}
+
+body .loader .dots {
+  font-family: Circular, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 640px) {
+  body .loader .dots {
+    font-size: 12px !important;
+  }
+}
+
+@-webkit-keyframes dotsBlink {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dotsBlink {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body .loader .dots .dot1 {
+  -webkit-animation: dotsBlink 1s 0s infinite normal forwards;
+          animation: dotsBlink 1s 0s infinite normal forwards;
+}
+
+body .loader .dots .dot2 {
+  -webkit-animation: dotsBlink 1s 0.3s infinite normal forwards;
+          animation: dotsBlink 1s 0.3s infinite normal forwards;
+}
+
+body .loader .dots .dot3 {
+  -webkit-animation: dotsBlink 1s 0.6s infinite normal forwards;
+          animation: dotsBlink 1s 0.6s infinite normal forwards;
+}
+
 body .content-wrapper {
   margin-left: 10vw;
   margin-right: 10vw;
   width: 80vw;
   height: auto;
+  opacity: 0;
+  -webkit-animation: moveFade 0.6s 4.3s ease-in-out forwards;
+          animation: moveFade 0.6s 4.3s ease-in-out forwards;
 }
 
 body .content-wrapper .header-wrapper {

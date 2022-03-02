@@ -5,11 +5,63 @@ body {
   background-color: #000000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @keyframes moveFade {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .loader {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    animation: moveFade 0.4s ease-in-out forwards;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    align-items: center;
+
+    .text {
+      @include subtext;
+      font-size: 16px;
+    }
+    .dots {
+      @include subtext;
+      display: flex;
+      margin-left: 2px;
+      font-size: 16px;
+
+      @keyframes dotsBlink {
+        0% {
+          opacity: 0.2;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .dot1 {
+        animation: dotsBlink 1s 0s infinite normal forwards;
+      }
+      .dot2 {
+        animation: dotsBlink 1s 0.3s infinite normal forwards;
+      }
+      .dot3 {
+        animation: dotsBlink 1s 0.6s infinite normal forwards;
+      }
+    }
+  }
   .content-wrapper {
     margin-left: 10vw;
     margin-right: 10vw;
     width: 80vw;
     height: auto;
+    opacity: 0;
+    animation: moveFade 0.6s 4.3s ease-in-out forwards;
+
     .header-wrapper {
       margin-top: 8vh;
       width: 40vw;

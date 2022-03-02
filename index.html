@@ -8,9 +8,17 @@
     <link rel="stylesheet" href="styling/style.css" />
 </head>
 
-<body>
+<body onload="setTimeout(startLoader, 4000)">
     <!-- <div class="box" id="box">
     </div> -->
+    <div class="loader" id="loader">
+        <div class="text">Just a minute, taking a drag</div>
+        <div class="dots">
+            <div class="dot1">.</div>
+            <div class="dot2">.</div>
+            <div class="dot3">.</div>
+        </div>
+    </div>
     <div class="content-wrapper">
         <div class="header-wrapper">
             <!-- <div class="divider">
