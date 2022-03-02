@@ -68,6 +68,7 @@ body .loader .text {
   font-size: 14px;
   font-weight: 400;
   color: #444444;
+  color: #6d6d6d;
   font-size: 16px;
 }
 
@@ -82,6 +83,7 @@ body .loader .dots {
   font-size: 14px;
   font-weight: 400;
   color: #444444;
+  color: #6d6d6d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

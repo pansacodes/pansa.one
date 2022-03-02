@@ -27,10 +27,12 @@ body {
 
     .text {
       @include subtext;
+      color: #6d6d6d;
       font-size: 16px;
     }
     .dots {
       @include subtext;
+      color: #6d6d6d;
       display: flex;
       margin-left: 2px;
       font-size: 16px;
