@@ -53,7 +53,6 @@ function jagMag() {
 
 jagMag();
 
-
 function startLoader(){
     document.getElementById("loader").style.display="none";
 }
