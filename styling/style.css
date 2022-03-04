@@ -548,30 +548,28 @@ body .footer-wrapper .links .social:hover a:hover {
   .content-wrapper .work-wrapper .supporting-container {
     display: none !important;
   }
-  .content-wrapper .footer-wrapper {
+  .footer-wrapper {
+    width: 88vw !important;
     margin-top: 8vh !important;
   }
-  .content-wrapper .footer-wrapper #copyText {
+  .footer-wrapper #copyText {
     margin-top: 8px;
     margin-left: 0px;
   }
-  .content-wrapper .footer-wrapper .links {
+  .footer-wrapper .links {
     margin-top: 8px !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .content-wrapper .footer-wrapper .links .social {
+  .footer-wrapper .links .social {
     margin-top: 12px !important;
   }
-  .content-wrapper .footer-wrapper .links .social a {
+  .footer-wrapper .links .social a {
     margin-top: 12px;
     margin-left: 0 !important;
     margin-right: 12px !important;
-  }
-  .footer-wrapper {
-    width: 88vw !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

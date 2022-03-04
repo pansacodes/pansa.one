@@ -310,27 +310,25 @@ body {
         display: none !important;
       }
     }
-    .footer-wrapper {
-      margin-top: 8vh !important;
-      #copyText {
-        margin-top: 8px;
-        margin-left: 0px;
-      }
-      .links {
-        margin-top: 8px !important;
-        flex-direction: column;
-        .social {
-          margin-top: 12px !important;
-          a {
-            margin-top: 12px;
-            margin-left: 0 !important;
-            margin-right: 12px !important ;
-          }
-        }
-      }
-    }
   }
   .footer-wrapper {
     width: 88vw !important;
+    margin-top: 8vh !important;
+    #copyText {
+      margin-top: 8px;
+      margin-left: 0px;
+    }
+    .links {
+      margin-top: 8px !important;
+      flex-direction: column;
+      .social {
+        margin-top: 12px !important;
+        a {
+          margin-top: 12px;
+          margin-left: 0 !important;
+          margin-right: 12px !important ;
+        }
+      }
+    }
   }
 }
