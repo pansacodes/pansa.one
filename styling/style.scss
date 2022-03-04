@@ -14,6 +14,14 @@ body {
       opacity: 1;
     }
   }
+  @keyframes moveFadeFooter {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
   .loader {
     display: flex;
@@ -173,7 +181,7 @@ body {
     margin-left: 10vw;
     width: 80vw;
     opacity: 0;
-    animation: moveFade 0.6s 3.3s ease-in-out forwards;
+    animation: moveFadeFooter 0.6s 3.3s ease-in-out forwards;
 
     .divider {
       width: 100%;
