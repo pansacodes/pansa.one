@@ -70,19 +70,12 @@ var contentTop = document.getElementById('header-wrapper').offsetTop;
 var workTop = document.getElementById('work-wrapper').offsetTop;
 var footerHeight = document.getElementById('footer-wrapper').offsetHeight;
 var workHeight = document.getElementById('work-wrapper').offsetHeight;
-
 var workPadding = workTop - (headerHeight + contentTop);
-
 var workWrapperHeight = screen.height - (headerHeight + contentTop + footerHeight);
 
-console.log(workWrapperHeight);
-console.log(workHeight);
-
 if (workWrapperHeight > workHeight) {
-	console.log('if');
 	var spacer = (workWrapperHeight - workHeight) / 3;
 	var spacerBottom = spacer + footerHeight;
-	console.log(spacer);
 	var spacerpx = spacer.toString();
 	var spacerpx = spacerpx + 'px';
 	var spacerpxBottom = spacerBottom.toString();
@@ -90,11 +83,8 @@ if (workWrapperHeight > workHeight) {
 	var spacerpx = (document.getElementById('work-wrapper').style.marginTop = spacerpx);
 	document.getElementById('work-wrapper').style.marginBottom = spacerpxBottom;
 } else {
-	console.log('else');
 	var paddingBottomSet = footerHeight + 50;
-	console.log(paddingBottomSet);
 	var paddingBottomSet = paddingBottomSet.toString();
-	console.log(paddingBottomSet);
 	var paddingBottomSet = paddingBottomSet + 'px';
 	document.getElementById('work-wrapper').style.marginTop = '0';
 	document.getElementById('work-wrapper').style.paddingTop = '50px';
