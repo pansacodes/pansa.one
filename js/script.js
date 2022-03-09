@@ -80,11 +80,15 @@ console.log(workHeight);
 
 if (workWrapperHeight > workHeight) {
 	console.log('if');
-	var spacer = (workWrapperHeight - workHeight) / 2;
+	var spacer = (workWrapperHeight - workHeight) / 3;
+	var spacerBottom = spacer + footerHeight;
+	console.log(spacer);
 	var spacerpx = spacer.toString();
 	var spacerpx = spacerpx + 'px';
-	document.getElementById('work-wrapper').style.marginTop = spacerpx;
-	document.getElementById('work-wrapper').style.marginBottom = spacerpx;
+	var spacerpxBottom = spacerBottom.toString();
+	var spacerpxBottom = spacerpxBottom + 'px';
+	var spacerpx = (document.getElementById('work-wrapper').style.marginTop = spacerpx);
+	document.getElementById('work-wrapper').style.marginBottom = spacerpxBottom;
 } else {
 	console.log('else');
 	var paddingBottomSet = footerHeight + 50;
