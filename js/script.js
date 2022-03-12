@@ -57,7 +57,9 @@ function jagMag() {
 	callingCards(fifthCard, 0.5, 0.5, 0.5, 0.5, 1, './resources/projects/Vernac.png');
 }
 
-jagMag();
+if (screen.width > '800') {
+	jagMag();
+}
 
 function startLoader() {
 	document.getElementById('loader').style.display = 'none';
@@ -65,28 +67,28 @@ function startLoader() {
 
 //gaand faad code starts here
 
-var headerHeight = document.getElementById('header-wrapper').offsetHeight;
-var contentTop = document.getElementById('header-wrapper').offsetTop;
-var workTop = document.getElementById('work-wrapper').offsetTop;
-var footerHeight = document.getElementById('footer-wrapper').offsetHeight;
-var workHeight = document.getElementById('work-wrapper').offsetHeight;
-var workPadding = workTop - (headerHeight + contentTop);
-var workWrapperHeight = screen.height - (headerHeight + contentTop + footerHeight);
+// var headerHeight = document.getElementById('header-wrapper').offsetHeight;
+// var contentTop = document.getElementById('header-wrapper').offsetTop;
+// var workTop = document.getElementById('work-wrapper').offsetTop;
+// var footerHeight = document.getElementById('footer-wrapper').offsetHeight;
+// var workHeight = document.getElementById('work-wrapper').offsetHeight;
+// var workPadding = workTop - (headerHeight + contentTop);
+// var workWrapperHeight = screen.height - (headerHeight + contentTop + footerHeight);
 
-if (workWrapperHeight > workHeight) {
-	var spacer = (workWrapperHeight - workHeight) / 3;
-	var spacerBottom = spacer + footerHeight;
-	var spacerpx = spacer.toString();
-	var spacerpx = spacerpx + 'px';
-	var spacerpxBottom = spacerBottom.toString();
-	var spacerpxBottom = spacerpxBottom + 'px';
-	var spacerpx = (document.getElementById('work-wrapper').style.marginTop = spacerpx);
-	document.getElementById('work-wrapper').style.marginBottom = spacerpxBottom;
-} else {
-	var paddingBottomSet = footerHeight + 50;
-	var paddingBottomSet = paddingBottomSet.toString();
-	var paddingBottomSet = paddingBottomSet + 'px';
-	document.getElementById('work-wrapper').style.marginTop = '0';
-	document.getElementById('work-wrapper').style.paddingTop = '50px';
-	document.getElementById('work-wrapper').style.paddingBottom = paddingBottomSet;
-}
+// if (workWrapperHeight > workHeight) {
+// 	var spacer = (workWrapperHeight - workHeight) / 3;
+// 	var spacerBottom = spacer + footerHeight;
+// 	var spacerpx = spacer.toString();
+// 	var spacerpx = spacerpx + 'px';
+// 	var spacerpxBottom = spacerBottom.toString();
+// 	var spacerpxBottom = spacerpxBottom + 'px';
+// 	var spacerpx = (document.getElementById('work-wrapper').style.marginTop = spacerpx);
+// 	document.getElementById('work-wrapper').style.marginBottom = spacerpxBottom;
+// } else {
+// 	var paddingBottomSet = footerHeight + 50;
+// 	var paddingBottomSet = paddingBottomSet.toString();
+// 	var paddingBottomSet = paddingBottomSet + 'px';
+// 	document.getElementById('work-wrapper').style.marginTop = '0';
+// 	document.getElementById('work-wrapper').style.paddingTop = '50px';
+// 	document.getElementById('work-wrapper').style.paddingBottom = paddingBottomSet;
+// }
