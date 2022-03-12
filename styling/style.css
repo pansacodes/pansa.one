@@ -582,6 +582,9 @@ body .footer-wrapper .links .social:hover a:hover {
     margin-right: 6vw !important;
     width: 88vw;
   }
+  .content-wrapper .work-wrapper {
+    margin-bottom: 16vh;
+  }
   .content-wrapper .work-wrapper .projects a .hover-arrow {
     display: none;
   }
@@ -607,6 +610,9 @@ body .footer-wrapper .links .social:hover a:hover {
     margin-left: 2px !important;
     -webkit-transform: scale(0.64);
             transform: scale(0.64);
+  }
+  .content-wrapper .work-wrapper {
+    margin-bottom: 24vh;
   }
   .content-wrapper .work-wrapper .projects {
     width: 100% !important;
