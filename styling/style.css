@@ -441,6 +441,7 @@ body .footer-wrapper .info .subheading {
 }
 
 body .footer-wrapper .info .subheading button {
+  display: none;
   height: 28px;
   width: 64px;
   margin-left: 8px;
@@ -504,34 +505,6 @@ body .footer-wrapper .links .social:hover a:hover {
   }
   .content-wrapper .header-wrapper .hero {
     width: 84vw;
-    background: none;
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: unset;
-  }
-  .content-wrapper .header-wrapper .hero::after {
-    display: none;
-  }
-  .content-wrapper .header-wrapper .hero span {
-    position: relative;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-2%, #9845e8), color-stop(56%, #33d2ff), color-stop(96%, #dd5789));
-    background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .content-wrapper .header-wrapper .hero span::after {
-    content: '';
-    width: 100%;
-    height: 10px;
-    background: -webkit-gradient(linear, left top, right top, color-stop(-2%, #9845e8), color-stop(56%, #33d2ff), color-stop(96%, #dd5789));
-    background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
-    opacity: 20%;
-    position: absolute;
-    bottom: 8px;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
   }
   .content-wrapper .header-wrapper .description {
     width: 84vw;
