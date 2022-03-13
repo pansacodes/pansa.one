@@ -76,31 +76,12 @@ body {
 		width: 80vw;
 		padding-top: 8vh;
 		opacity: 0;
-		animation: moveFade 0.6s 3.3s ease-in-out forwards;
+		animation: moveFade 0.6s 2.8s ease-in-out forwards;
 
 		.header-wrapper {
 			width: 60%;
 			.hero {
 				@include hero;
-				// position: relative;
-				// display: inline-flex;
-				// span:last-child {
-				// 	margin-left: 16px;
-				// }
-				// &::after {
-				// 	content: '';
-				// 	width: 100%;
-				// 	height: 16px;
-				// 	background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
-				// 	opacity: 20%;
-				// 	position: absolute;
-				// 	bottom: 14px;
-				// 	left: 0;
-
-				// 	@supports (-moz-appearance: none) {
-				// 		margin-top: 40px;
-				// 	}
-				// }
 			}
 			.description {
 				@include subheading;
