@@ -79,6 +79,7 @@ body {
 		animation: moveFade 0.6s 3.3s ease-in-out forwards;
 
 		.header-wrapper {
+			width: 60%;
 			.hero {
 				@include hero;
 				position: relative;
@@ -103,7 +104,6 @@ body {
 			}
 			.description {
 				@include subheading;
-				width: 40vw;
 			}
 			.subtext {
 				display: flex;
@@ -250,7 +250,7 @@ body {
 
 //defining media queries
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 920px) {
 	.content-wrapper {
 		width: 84vw !important;
 		margin-left: 8vw !important;
@@ -285,7 +285,7 @@ body {
 				}
 			}
 			.description {
-				width: 76vw;
+				width: 84vw;
 			}
 		}
 		.work-wrapper {
