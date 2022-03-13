@@ -165,8 +165,8 @@ body .content-wrapper {
   width: 80vw;
   padding-top: 8vh;
   opacity: 0;
-  -webkit-animation: moveFade 0.6s 3.3s ease-in-out forwards;
-          animation: moveFade 0.6s 3.3s ease-in-out forwards;
+  -webkit-animation: moveFade 0.6s 2.8s ease-in-out forwards;
+          animation: moveFade 0.6s 2.8s ease-in-out forwards;
 }
 
 body .content-wrapper .header-wrapper {
@@ -241,9 +241,6 @@ body .content-wrapper .header-wrapper .subtext {
   display: -ms-flexbox;
   display: flex;
   cursor: pointer;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   padding-top: 12px;
   padding-bottom: 12px;
 }
