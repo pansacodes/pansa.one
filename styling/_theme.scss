@@ -18,11 +18,17 @@
   font-family: NeueMachina, sans-serif;
   font-size: 42px;
   font-weight: 800;
-  background: linear-gradient(90deg, #9845e8 -2%, #33d2ff 56%, #dd5789 96%);
+  width:max-content;
+  background: linear-gradient(
+    89.81deg,
+    #9845e8 -1.72%,
+    #33d2ff 54.05%,
+    #dd5789 99.78%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  @media screen and (max-width: 880px) {
+  @media screen and (max-width: 920px) {
     font-size: 40px !important;
   }
   @media screen and (max-width: 640px) {
@@ -38,7 +44,7 @@
   font-weight: 700;
   color: white;
 
-  @media screen and (max-width: 880px) {
+  @media screen and (max-width: 920px) {
     font-size: 20px !important;
   }
   @media screen and (max-width: 640px) {
@@ -54,7 +60,7 @@
   font-weight: 400;
   color: #98a2b3;
 
-  @media screen and (max-width: 880px) {
+  @media screen and (max-width: 920px) {
     font-size: 16px !important;
   }
   @media screen and (max-width: 640px) {
