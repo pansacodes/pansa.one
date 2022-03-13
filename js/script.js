@@ -9,6 +9,9 @@ function changeText() {
 function copyText() {
 	navigator.clipboard.writeText('sauravppandey@gmail.com');
 }
+// var gradientwidth=document.getElementById("content").offsetWidth().width
+// console.log(gradientwidth)
+
 
 // awesome code starts here
 function jagMag() {

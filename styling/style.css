@@ -183,7 +183,7 @@ body .content-wrapper .header-wrapper {
           animation-fill-mode: forwards;
 }
 
-body .content-wrapper .header-wrapper .hero {
+body .content-wrapper .header-wrapper .hero .content {
   font-family: NeueMachina, sans-serif;
   font-size: 42px;
   font-weight: 800;
@@ -196,33 +196,21 @@ body .content-wrapper .header-wrapper .hero {
 }
 
 @media screen and (max-width: 920px) {
-  body .content-wrapper .header-wrapper .hero {
+  body .content-wrapper .header-wrapper .hero .content {
     font-size: 40px !important;
   }
 }
 
 @media screen and (max-width: 640px) {
-  body .content-wrapper .header-wrapper .hero {
+  body .content-wrapper .header-wrapper .hero .content {
     font-size: 32px !important;
   }
 }
 
 @media screen and (max-width: 400px) {
-  body .content-wrapper .header-wrapper .hero {
+  body .content-wrapper .header-wrapper .hero .content {
     font-size: 24px !important;
   }
-}
-
-body .content-wrapper .header-wrapper .hero::after {
-  content: "";
-  width: auto;
-  height: 12px;
-  background: linear-gradient(89.81deg, #9845e8 -1.72%, #33d2ff 54.05%, #dd5789 99.78%);
-  opacity: 0.2;
-  position: relative;
-  display: block;
-  top: -2.1vh;
-  z-index: -100;
 }
 
 body .content-wrapper .header-wrapper .description {
