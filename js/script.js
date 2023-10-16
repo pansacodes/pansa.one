@@ -53,7 +53,8 @@ function jagMag() {
 	var fourthCard = callElement('wishlist');
 	var fifthCard = callElement('vernacular');
 
-	callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/Cosmos.png');
+	//callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/Cosmos.png');
+	callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/account.png');
 	callingCards(secondCard, 0.5, 1, 0.5, 0.5, 0.5, './resources/projects/Offers.png');
 	callingCards(thirdCard, 0.5, 0.5, 1, 0.5, 0.5, './resources/projects/TR.png');
 	callingCards(fourthCard, 0.5, 0.5, 0.5, 1, 0.5, './resources/projects/Wishlist.png');
