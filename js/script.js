@@ -16,7 +16,7 @@ function copyText() {
 // awesome code starts here
 function jagMag() {
 	var firstCard = callElement('mcvision');
-	var secondCard = callElement('account');
+	var secondCard = callElement('agentforce');
 	var thirdCard = callElement('tr');
 	var fourthCard = callElement('cosmos');
 	var fifthCard = callElement('vernacular');
@@ -24,7 +24,7 @@ function jagMag() {
 	function callAllElements(a, b, c, d, e) {
 		return [
 			(callElement('mcvision').style.opacity = a),
-			(callElement('account').style.opacity = b),
+			(callElement('agentforce').style.opacity = b),
 			(callElement('tr').style.opacity = c),
 			(callElement('cosmos').style.opacity = d),
 			(callElement('vernacular').style.opacity = e),
@@ -48,14 +48,14 @@ function jagMag() {
 		});
 	}
 	var firstCard = callElement('mcvision');
-	var secondCard = callElement('account');
+	var secondCard = callElement('agentforce');
 	var thirdCard = callElement('tr');
 	var fourthCard = callElement('cosmos');
 	var fifthCard = callElement('vernacular');
 
 	//callingCards
 	callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/MCVision.png');
-	callingCards(secondCard, 0.5, 1, 0.5, 0.5, 0.5, './resources/projects/Account.png');
+	callingCards(secondCard, 0.5, 1, 0.5, 0.5, 0.5, './resources/projects/Agentforce.png');
 	callingCards(thirdCard, 0.5, 0.5, 1, 0.5, 0.5, './resources/projects/TR.png');
 	callingCards(fourthCard, 0.5, 0.5, 0.5, 1, 0.5, './resources/projects/Cosmos.png');
 	callingCards(fifthCard, 0.5, 0.5, 0.5, 0.5, 1, './resources/projects/Vernac.png');
