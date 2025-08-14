@@ -15,18 +15,18 @@ function copyText() {
 
 // awesome code starts here
 function jagMag() {
-	var firstCard = callElement('cosmos');
-	var secondCard = callElement('offers');
+	var firstCard = callElement('mcvision');
+	var secondCard = callElement('agentforce');
 	var thirdCard = callElement('tr');
-	var fourthCard = callElement('wishlist');
+	var fourthCard = callElement('cosmos');
 	var fifthCard = callElement('vernacular');
 
 	function callAllElements(a, b, c, d, e) {
 		return [
-			(callElement('cosmos').style.opacity = a),
-			(callElement('offers').style.opacity = b),
+			(callElement('mcvision').style.opacity = a),
+			(callElement('agentforce').style.opacity = b),
 			(callElement('tr').style.opacity = c),
-			(callElement('wishlist').style.opacity = d),
+			(callElement('cosmos').style.opacity = d),
 			(callElement('vernacular').style.opacity = e),
 		];
 	}
@@ -47,17 +47,17 @@ function jagMag() {
 			cardName.style.transition = 'all 0.4s';
 		});
 	}
-	var firstCard = callElement('cosmos');
-	var secondCard = callElement('offers');
+	var firstCard = callElement('mcvision');
+	var secondCard = callElement('agentforce');
 	var thirdCard = callElement('tr');
-	var fourthCard = callElement('wishlist');
+	var fourthCard = callElement('cosmos');
 	var fifthCard = callElement('vernacular');
 
-	//callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/Cosmos.png');
-	callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/account.png');
-	callingCards(secondCard, 0.5, 1, 0.5, 0.5, 0.5, './resources/projects/Offers.png');
+	//callingCards
+	callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/MCVision.png');
+	callingCards(secondCard, 0.5, 1, 0.5, 0.5, 0.5, './resources/projects/Agentforce.png');
 	callingCards(thirdCard, 0.5, 0.5, 1, 0.5, 0.5, './resources/projects/TR.png');
-	callingCards(fourthCard, 0.5, 0.5, 0.5, 1, 0.5, './resources/projects/Wishlist.png');
+	callingCards(fourthCard, 0.5, 0.5, 0.5, 1, 0.5, './resources/projects/Cosmos.png');
 	callingCards(fifthCard, 0.5, 0.5, 0.5, 0.5, 1, './resources/projects/Vernac.png');
 }
 
