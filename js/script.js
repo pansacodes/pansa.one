@@ -55,7 +55,7 @@ function jagMag() {
 
 	//callingCards
 	callingCards(firstCard, 1, 0.5, 0.5, 0.5, 0.5, './resources/projects/MCVision.png');
-	callingCards(secondCard, 0.5, 1, 0.5, 0.5, 0.5, './resources/projects/Account.png');
+	callingCards(secondCard, 0.5, 1, 0.5, 0.5, 0.5, './resources/projects/Cosmos.png');
 	callingCards(thirdCard, 0.5, 0.5, 1, 0.5, 0.5, './resources/projects/TR.png');
 	callingCards(fourthCard, 0.5, 0.5, 0.5, 1, 0.5, './resources/projects/Cosmos.png');
 	callingCards(fifthCard, 0.5, 0.5, 0.5, 0.5, 1, './resources/projects/Vernac.png');
